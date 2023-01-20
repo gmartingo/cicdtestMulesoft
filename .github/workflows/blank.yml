@@ -162,6 +162,6 @@ jobs:
         AUTHOR: "German Martin"
       run: |
         artifactName=$(ls *.jar | head -1)
-        mvn deploy --file pom.xml -DmuleDeploy -Dcicd.welcome.message="${{ secrets.MESSAGE }}" -Denvironment="TEST" "
+        mvn deploy --file pom.xml -DmuleDeploy -Dcicd.welcome.message="${{ secrets.MESSAGE }}" -Denvironment="TEST"
         
             
