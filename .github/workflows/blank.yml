@@ -159,7 +159,7 @@ jobs:
           }]
     - name: Deploy to CloudHub 2
       env:
-        AUTHOR: "Andres Morales"
+        AUTHOR: "German Martin"
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy --file pom.xml -DmuleDeploy -Dcicd.welcome.message="Welcome from Github and Cloudhub2"  
