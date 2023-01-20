@@ -42,6 +42,7 @@
 							<replicas>1</replicas>
 							<vCores>0.1</vCores>
 							<deploymentTimeout>240000</deploymentTimeout>
+							<!-- <secureProperties></secureProperties> -->
 							<properties>
 								<cicd.welcome.message>${cicd.welcome.message}</cicd.welcome.message>
 							</properties>
